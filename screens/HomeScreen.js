@@ -49,7 +49,7 @@ const HomeScreen = () => {
   const scaleAnimation = Animated.timing(scaleValue, {
     toValue: 1,
     duration: 1500,
-    useNativeDriver: true,
+    useNativeDriver: true
   });
 
   const featCampsite = campsites.campsitesArray.find((item) => item.featured);
